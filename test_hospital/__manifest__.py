@@ -6,6 +6,8 @@
     'description': """Test Hospital Management Software""",
     'category': 'Apps',
     'author': 'Thanwar',
+    'price': '15.0',
+    'currency': 'USD',
     'website': 'https://www.odoomates.tech',
     'license': 'AGPL-3',
     'depends': ['base','sale','product','mail'],
