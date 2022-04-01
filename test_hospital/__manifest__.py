@@ -1,10 +1,11 @@
 {
     'name': 'Test Hospital Management',
-    'version': '1.0',
+    'version': '1.1',
     'summary': 'Test Hospital Management Software',
     'sequence': -100,
     'description': """Test Hospital Management Software""",
     'category': 'Apps',
+    'author': 'Thanwar',
     'website': 'https://www.odoomates.tech',
     'license': 'AGPL-3',
     'depends': ['base','sale','product','mail'],
