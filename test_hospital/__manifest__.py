@@ -1,0 +1,28 @@
+{
+    'name': 'Test Hospital Management',
+    'version': '1.0',
+    'summary': 'Test Hospital Management Software',
+    'sequence': -100,
+    'description': """Test Hospital Management Software""",
+    'category': 'Apps',
+    'website': 'https://www.odoomates.tech',
+    'license': 'AGPL-3',
+    'depends': ['base','sale','product','mail'],
+    'data': [
+        'security/ir.model.access.csv',
+        'data/data.xml',
+        'wizard/create_appointment_views.xml',
+        'views/patient.xml',
+        'views/kids.xml',
+        'views/patient_gender_view.xml',
+        'views/appointment.xml',
+        'views/sale.xml',
+        'views/sale_product.xml',
+        'views/doctor.xml'
+    ],
+    'demo': [],
+    'qweb': [],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}
